@@ -33,18 +33,70 @@ This Python project allows you to calculate the earned interest on a savings acc
 ## How to Use
 
 1. Clone or download the project.
-2. Navigate to the `interest_calculator` folder and run the script:
+2. Navigate to the `interest_calculator` folder and run the Jupyter Notebook:
+
 
     ```bash
-    python interest_calculator/script_name.py
+    cd interest_calculator
+    jupyter notebook
     ```
 
     The script will ask for the following inputs:
-    - Initial deposit
-    - Monthly deposits
-    - Bank interest rate
-    - Number of months
+    - Initial deposit (amount in PLN)
+    - Monthly deposits (amount in PLN, if you don't plan add - type 0)
+    - Bank interest rate (float number in format xx.x)
+    - Number of months (int number)
 
 3. After the calculations are completed, the script will prompt you to save the results in a CSV file.
 
 ## Example Output:
+```text
+Current date: 17 March 2025
+
+Results for 8 months starting from March 2025:
+March 2025
+Earned: 2.03 PLN
+Tax paid: 0.47 PLN
+Balance: 1002.02 PLN
+
+April 2025
+Earned: 3.04 PLN
+Tax paid: 0.71 PLN
+Balance: 1505.07 PLN
+
+May 2025
+Earned: 4.06 PLN
+Tax paid: 0.95 PLN
+Balance: 2009.13 PLN
+
+June 2025
+Earned: 5.08 PLN
+Tax paid: 1.19 PLN
+Balance: 2514.21 PLN
+
+July 2025
+Earned: 6.1 PLN
+Tax paid: 1.43 PLN
+Balance: 3020.31 PLN
+
+August 2025
+Earned: 7.13 PLN
+Tax paid: 1.67 PLN
+Balance: 3527.44 PLN
+
+September 2025
+Earned: 8.16 PLN
+Tax paid: 1.91 PLN
+Balance: 4035.6 PLN
+
+October 2025
+Earned: 9.18 PLN
+Tax paid: 2.15 PLN
+Balance: 4544.78 PLN
+
+
+Total earned interest (after tax): 44.78 PLN
+Total tax paid: 10.5 PLN
+
+Data was not saved.
+```
