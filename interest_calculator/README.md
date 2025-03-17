@@ -15,7 +15,7 @@ This Python project allows you to calculate the earned interest on a savings acc
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/shdlsk/portfolio_data_analyst.git
+    git clone https://github.com/shdlsk/python_sandbox/tree/main/interest_calculator
     ```
 
 2. Ensure you have Python 3.x installed. You can check the version with:
